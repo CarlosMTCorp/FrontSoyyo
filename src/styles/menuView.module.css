@@ -1,0 +1,116 @@
+body {
+  background: url(../assets/Iconos/opacidad\ fondo.png);
+  background-size: 100% !important;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.menuView {
+  width: 70%;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.contenedor {
+  width: auto;
+  margin: 40px 30px;
+  padding-top: 30px;
+  background-color: rgb(225, 225, 225);
+  height: auto;
+  padding-bottom: 5px;
+}
+
+.items {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(225, 225, 225);
+  border: none;
+}
+
+.Accordion.Item.collapsed::after {
+  background: url("../assets/Iconos/logo.png");
+}
+
+.Accordion.Item:not(.collapsed)::after {
+  background: url("../assets/Iconos/logo.png");
+}
+
+.accordionBody {
+  padding-left: 0;
+  padding-right: 0;
+}
+.items button,
+.items h2 {
+  border-radius: 13px !important;
+}
+
+.items button::after {
+  background-image: url("../assets/Iconos/flecha.png") !important;
+}
+
+.title {
+  box-shadow: 5px 5px 5px #a1a1a1;
+}
+h4 {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  .contenedor {
+    width: 110%;
+    margin: 40px -25px;
+  }
+  .items {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  h4 {
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 767px) {
+  .menuView {
+    width: 90%;
+    margin: 0px 0px;
+  }
+  .contenedor {
+    background-color: inherit;
+    /* background-color: rgb(225, 225, 225);
+    opacity: 1; */
+    margin: 0;
+  }
+
+  .acordion {
+    background-color: inherit;
+  }
+  .items {
+    background-color: inherit;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  h4 {
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menuView {
+    width: 90%;
+    margin: 0px 0px;
+  }
+  .items {
+    height: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,32 @@
+.registerView {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/Iconos/Background\ 2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.contraseña {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .contraseña {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .registerView {
+    height: 100vh;
+  }
+}

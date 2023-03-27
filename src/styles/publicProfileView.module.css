@@ -1,0 +1,551 @@
+.containerPrincipal {
+  margin-bottom: 50px;
+}
+.containerImage {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  margin-left: -47px;
+}
+.containerImage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.backContainer {
+  position: relative;
+}
+.backContainer2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.backRectangle {
+  height: 100px;
+  background-color: black;
+}
+.auxProfileContainer {
+  display: block;
+  margin: 25px 50px;
+  text-align: -webkit-center;
+}
+.profileContainer {
+  width: 100%;
+  top: 0px;
+  background-color: rgb(221, 221, 221);
+  opacity: 0.92;
+  border-radius: 25px;
+  box-shadow: 0 0 12px 2px rgb(0 0 0 / 50%);
+  max-width: 760px;
+  position: relative;
+  border: 0.1px solid transparent;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.imageContainer {
+  top: 20px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+.imageAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 150px;
+  box-shadow: 0 0 12px 2px rgb(0 0 0 / 50%);
+}
+
+.infoContainer {
+  padding: 150px 20px 30px 20px;
+  text-align: center;
+}
+
+.infoDisplayName {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.infoCareer {
+  font-size: 22px;
+  padding-top: 20px;
+  margin-top: -15px;
+  font-weight: bold;
+  color: black;
+}
+
+.othersContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.qrContainer,
+.shareContainer {
+  font-weight: bold;
+}
+
+.qrContainer:hover,
+.shareContainer:hover {
+  cursor: pointer;
+}
+
+.shareIcon,
+.qrIcon {
+  width: 70px;
+}
+
+.saveContainer {
+  font-size: 18px;
+  margin-left: -20px;
+  border-radius: 40px;
+  color: white;
+  padding: 18px 45px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: black;
+  font-weight: bold;
+  box-shadow: 0 5px 10px 0px rgb(0 0 0 / 50%);
+}
+.saveContainer:hover {
+  cursor: pointer;
+  background: rgb(117, 117, 117);
+}
+
+.footerContainer {
+  height: 16%;
+  background-color: black;
+}
+
+.edit_profile_icons {
+  margin-bottom: 10px;
+  display: flex;
+  cursor: grab;
+  overflow-x: auto;
+}
+.edit_profile_icons::-webkit-scrollbar {
+  display: none;
+}
+
+.edit_profile_icons_item > button {
+  cursor: pointer;
+}
+
+.btn_custom {
+  border: 0;
+  background-color: rgb(221, 221, 221);
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 0rem;
+  margin: 0 1.2rem;
+}
+
+.edit_profile_icons img {
+  width: 55px;
+  height: 55px;
+}
+
+@media screen and (max-width: 1300px) {
+  .containerPrincipal {
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  .containerImage {
+    position: absolute;
+    width: 100%;
+    height: 63%;
+
+    margin-left: -48px;
+  }
+  .containerImage > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .backContainer {
+    background-size: 210% !important;
+  }
+  .backRectangle {
+    height: 80px;
+  }
+
+  .profileContainer {
+    max-width: 600px;
+    margin-top: 0px;
+    top: 0px;
+  }
+
+  .imageContainer {
+    top: 10px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .imageAvatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .infoContainer {
+    padding: 120px 0px 10px 0px;
+  }
+
+  .infoDisplayName {
+    font-size: 18px;
+  }
+
+  .infoCareer {
+    font-size: 15px;
+  }
+  .qrContainer,
+  .shareContainer {
+    font-size: 12px;
+  }
+
+  .shareIcon,
+  .qrIcon {
+    width: 30px;
+  }
+
+  .saveContainer {
+    font-size: 12px;
+    padding: 13px 25px;
+  }
+
+  .btn_custom {
+    font-size: 11px;
+    padding-bottom: 0rem;
+    margin: 0 0.5rem;
+  }
+
+  .edit_profile_icons img {
+    width: 35px;
+    height: 35px;
+  }
+  .othersContainer {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .containerPrincipal {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .containerImage {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+
+    margin-left: -15px;
+  }
+  .containerImage > img {
+    width: 95%;
+    height: 100%;
+  }
+
+  .backContainer {
+    background-size: 215% !important;
+  }
+  .backRectangle {
+    height: 70px;
+  }
+  .profileContainer {
+    max-width: 600px;
+    margin-top: 0px;
+    top: 0px;
+  }
+
+  .imageContainer {
+    top: 10px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .imageAvatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .infoContainer {
+    padding: 120px 0px 10px 0px;
+  }
+
+  .infoDisplayName {
+    font-size: 22px;
+  }
+
+  .infoCareer {
+    font-size: 18px;
+  }
+  .qrContainer,
+  .shareContainer {
+    font-size: 15px;
+  }
+
+  .shareIcon,
+  .qrIcon {
+    width: 30px;
+  }
+
+  .saveContainer {
+    font-size: 15px;
+    padding: 13px 25px;
+  }
+
+  .btn_custom > p {
+    padding-bottom: 0rem;
+    margin: 0 0rem;
+    font-size: 14px;
+  }
+
+  .edit_profile_icons img {
+    width: 45px;
+    height: 45px;
+  }
+  .othersContainer {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .containerPrincipal {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .containerImage {
+    position: absolute;
+    width: 100%;
+    height: 67%;
+
+    margin-left: -16px;
+  }
+  .containerImage > img {
+    width: 91.5%;
+    height: 100%;
+  }
+
+  .backContainer {
+    background-size: 215% !important;
+  }
+  .backRectangle {
+    height: 60px;
+  }
+  .profileContainer {
+    max-width: 400px;
+    margin-top: 0px;
+    top: 0px;
+  }
+
+  .imageContainer {
+    top: 10px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .imageAvatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .infoContainer {
+    padding: 100px 0px 10px 0px;
+  }
+
+  .infoDisplayName {
+    font-size: 18px;
+  }
+
+  .infoCareer {
+    font-size: 14px;
+  }
+  .qrContainer,
+  .shareContainer {
+    font-size: 10px;
+  }
+
+  .shareIcon,
+  .qrIcon {
+    width: 30px;
+  }
+
+  .saveContainer {
+    font-size: 10px;
+    padding: 10px 15px;
+    margin-top: -5px;
+    margin-left: 10px;
+  }
+
+  .btn_custom > p {
+    padding-bottom: 0rem;
+    margin: 0rem;
+    font-size: 10px;
+  }
+
+  .edit_profile_icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .othersContainer {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .backContainer {
+    background-size: 215% !important;
+  }
+  .backRectangle {
+    height: 60px;
+  }
+  .profileContainer {
+    max-width: 400px;
+    margin-top: 0px;
+    top: 0px;
+  }
+
+  .imageContainer {
+    top: 10px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .imageAvatar {
+    width: 75px;
+    height: 75px;
+  }
+
+  .infoContainer {
+    padding: 100px 0px 10px 0px;
+  }
+
+  .infoDisplayName {
+    font-size: 15px;
+  }
+
+  .infoCareer {
+    font-size: 12px;
+  }
+  .qrContainer,
+  .shareContainer {
+    font-size: 9px;
+  }
+
+  .shareIcon,
+  .qrIcon {
+    width: 30px;
+  }
+
+  .saveContainer {
+    font-size: 9px;
+    padding: 10px 15px;
+    margin-top: -5px;
+    margin-left: 10px;
+  }
+
+  .btn_custom > p {
+    padding-bottom: 0rem;
+    margin: 0rem;
+    font-size: 10px;
+  }
+
+  .edit_profile_icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .othersContainer {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .containerPrincipal {
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  .containerImage {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+
+    margin-left: -16px;
+  }
+  .containerImage > img {
+    width: 89.5%;
+    height: 100%;
+  }
+  .backContainer {
+    background-size: 215% !important;
+  }
+  .backRectangle {
+    height: 60px;
+  }
+  .profileContainer {
+    margin-left: -35px;
+    width: 200px;
+    margin-top: 0px;
+    top: 0px;
+  }
+
+  .imageContainer {
+    top: 10px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .imageAvatar {
+    width: 75px;
+    height: 75px;
+  }
+
+  .infoContainer {
+    padding: 100px 0px 10px 0px;
+  }
+
+  .infoDisplayName {
+    font-size: 15px;
+  }
+
+  .infoCareer {
+    font-size: 12px;
+  }
+  .qrContainer,
+  .shareContainer {
+    font-size: 9px;
+  }
+
+  .shareIcon,
+  .qrIcon {
+    width: 30px;
+  }
+
+  .saveContainer {
+    font-size: 9px;
+    padding: 10px 15px;
+    margin-top: -5px;
+    margin-left: 10px;
+  }
+
+  .btn_custom > p {
+    padding-bottom: 0rem;
+    margin: 0rem;
+    font-size: 10px;
+  }
+
+  .edit_profile_icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .othersContainer {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+ 

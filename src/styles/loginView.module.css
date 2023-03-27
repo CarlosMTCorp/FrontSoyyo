@@ -1,0 +1,126 @@
+.loginView {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  background: url(../assets/Iconos/Background\ 2.png);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.provider {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.contraseña,
+.contraseña_verify {
+  color: white;
+  font-size: 25px;
+  font-weight: bold !important;
+}
+.contraseña2 {
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.linkContraseña {
+  padding-top: 35px !important;
+  margin-bottom: 20px !important;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.google {
+  margin-bottom: 20px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .loginView {
+    height: 100vh;
+  }
+  .provider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .contraseña,
+  .contraseña_verify {
+    color: white;
+    font-size: 25px;
+    font-weight: bold !important;
+  }
+  .contraseña2 {
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .linkContraseña {
+    padding-top: 35px !important;
+    margin-bottom: 20px !important;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .loginView {
+    height: 100vh;
+  }
+  .provider {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .provider {
+    text-align: center;
+
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .google > h5 {
+    margin-bottom: 35px;
+  }
+  .contraseña {
+    font-size: 20px;
+  }
+  .contraseña_verify {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  .contraseña2 {
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .loginView {
+    height: 115vh;
+  }
+  .provider {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+  }
+}

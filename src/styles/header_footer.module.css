@@ -1,0 +1,124 @@
+.navContainer {
+  background-color: black !important;
+  padding: 0px 80px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+  color: rgb(255, 255, 255) !important;
+  border-bottom: solid 2px transparent;
+}
+
+.nav a:hover {
+  border-color: white !important;
+  color: #707071 !important;
+}
+.logo img {
+  max-width: 12rem;
+}
+.nav a.logo:hover {
+  border-bottom: none;
+}
+
+.main {
+  margin-bottom: 40px;
+  min-height: 100vh;
+}
+
+.button {
+  background-color: black !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.footer {
+  background-color: black !important;
+
+  background-color: #a2d4e9;
+  background-color: #a99ec3;
+  background-color: #2a136c;
+  background-color: #1c0261;
+  background-color: #47a9d3;
+  background-color: #4aaed5;
+
+  color: #ffffffcc;
+  /* color:#fbfbfb; */
+  font-size: 14px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+}
+.footer img {
+  margin-bottom: 15px;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+  text-decoration: none;
+}
+.copyright {
+  /* border-top: 1px solid rgba(255, 255, 255, 0.8); */
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.customIcon {
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: 400;
+}
+.customLine {
+  font-size: 24px;
+}
+.socialIcon {
+  font-size: 25px;
+}
+
+.footer a:hover,
+.socialIcon:hover {
+  color: #0d7cac;
+}
+
+@media screen and (max-width: 767.98px) {
+  .logo img {
+    max-width: 8rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .navContainer {
+    padding: 0px 15px;
+  }
+  .nav > button {
+    border: none !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .logo img {
+    width: 100%;
+    height: 100%;
+    max-width: 12rem;
+    max-height: 8rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .logo img {
+    width: 100%;
+    height: 100%;
+    max-width: 12rem;
+    max-height: 10rem;
+  }
+  .footer {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+}
